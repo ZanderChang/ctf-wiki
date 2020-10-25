@@ -180,7 +180,7 @@ Common conditional competition has the following form.
 #### Description
 
 
-TOCTOC (Time-of-check Time-of-use) refers to the program will check before using resources (variables, memory, files), but the resources are modified before the program uses the corresponding resources.
+TOCTOU (Time-of-check Time-of-use) refers to the program will check before using resources (variables, memory, files), but the resources are modified before the program uses the corresponding resources.
 
 
 ![](./figure/toctou.png)

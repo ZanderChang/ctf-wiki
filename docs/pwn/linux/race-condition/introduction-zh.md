@@ -101,7 +101,7 @@ Thread 1266345728 has counter value 10
 
 #### 描述
 
-TOCTOC (Time-of-check Time-of-use) 指的是程序在使用资源（变量，内存，文件）前会对进行检查，但是在程序使用对应的资源前，该资源却被修改了。
+TOCTOU (Time-of-check Time-of-use) 指的是程序在使用资源（变量，内存，文件）前会对进行检查，但是在程序使用对应的资源前，该资源却被修改了。
 
 ![](./figure/toctou.png)
 
